@@ -10,4 +10,4 @@ function clearRequireCache(id) {
   delete require.cache[id]
 }
 
-module.exports = cleanRequireCache
+module.exports = clearRequireCache
