@@ -6,7 +6,7 @@ function clearRequireCache(id) {
   var mods = mod.children.map(function(child) {
     return child.id
   })
-  mods.forEach(cleanRequireCache)
+  mods.forEach(clearRequireCache)
   delete require.cache[id]
 }
 
