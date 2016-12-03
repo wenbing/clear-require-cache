@@ -1,6 +1,4 @@
-'use strict'
-
-function cleanRequireCache(id) {
+function clearRequireCache(id) {
   var mod = require.cache[id]
   if (!mod) {
     return
